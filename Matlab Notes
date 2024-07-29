@@ -1,0 +1,16 @@
+MATLAB notes
+With the enter key we run the commands
+	m = 1 + 2 (Enter)
+Matlab store a default variable in the word “ans”
+	1+2 (enter)
+Ans = 3
+Matlab first analyzes the left side of the operation separated by the equality sign
+	m = 1 + 2 (enter)
+(1 + 2 = 3) => (m = 3)
+On the right side there is a window (workspace) with the variables and their values
+With the sign ; you can suppress the output of the default value
+	m =  1 + 2 (enter)	=> ( m = 3 )				
+m = 1 + 2; (enter)	=>  (   )
+Variables must start with letters and can only contain numbers, letters, and underscores.
+To save a file in Matlab we use the “save” command, for example “save file”, this is saved in .mat format
+To change the number of decimal places that can be displayed you can use the format command, for example format long for several characters and format short for only 4 decimal places.
