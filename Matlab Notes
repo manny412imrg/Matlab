@@ -14,3 +14,4 @@ m = 1 + 2; (enter)	=>  (   )
 Variables must start with letters and can only contain numbers, letters, and underscores.
 To save a file in Matlab we use the “save” command, for example “save file”, this is saved in .mat format
 To change the number of decimal places that can be displayed you can use the format command, for example format long for several characters and format short for only 4 decimal places.
+To create arrays, brackets are used and separated by spaces. When you need to create matrixes, you separate them with ; for line breaks
